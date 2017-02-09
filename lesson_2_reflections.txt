@@ -5,3 +5,7 @@ When you initialize a new repo, it is created a new hidden directory called .git
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area is intended to hold the files that are ready to be commited, any change made in a file in the working directory that has been previously added to the staging area will not change the stagged file. When we want to commit, all the staging area will be commited in a single commit. The value that offers is that if i have a file in which i make all the intended changes, i can stag that file and wait for other files to be changed and then make a unique commit. In the case that i need to change anything in the stagged file, i can remove the file from the staging area, and then stage the modified file without uncommiting anything.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+The difference between the staging area and the working directory allow to know what modifications have been made to the files in certain period. If I keep track of this changes, I'll know when to make a significant commit.
